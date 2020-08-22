@@ -1,0 +1,97 @@
+h1
+{
+text-align:center;
+font-variant:small-caps;
+color:red;
+}
+
+h1:hover
+{ transform:translate(5px,5px);
+  transition:2.5s;
+ color:orange;
+text-decoration:underline;
+transform:scale(1.5,1.2);
+
+}
+p
+{
+display:inline-block;
+width:40%;
+margin:3%;
+padding:1.5%;
+color:#9932CC;
+background-color:aqua;
+font-size:125%;
+border:1px solid black;
+float:left;
+}
+p:hover
+{
+transform:translate(0,10px);
+transition:3s;
+background-color:aqua;
+border:2px dotted black;
+color:black;
+transform:scale(1,1.5);
+}
+body
+{
+ background-image:url("https://wallpapercave.com/wp/wp1859026.jpg");
+ background-size: 80% auto;
+}
+img
+{margin:1%;
+padding:.1%;
+display:inline-block;
+border:1px solid black;
+float:right;
+width:30%;
+}
+img:hover
+{
+ transform:scale(1.1,1.1);
+  transition:3.5s;
+border:1px dotted black;
+}
+h2
+{
+text-align:center;
+font-size:30px;
+color:yellow;
+border:1px solid black;
+margin:2%;
+padding:1%;
+background-color:aqua;
+display:inline-block;
+width:40%;}
+h2:hover
+{
+color:#FF00FF;
+transition:2.5s;
+transform:translate(60px,0);
+background-color:#FFFFE0;
+border:1px dotted black;
+}
+ol
+{
+font-size:25px;
+color:#FF6347;
+}
+ol:hover
+{
+color:#00FF7F;}
+a
+{
+color:#FF6347;
+}
+a:hover
+{
+transform:translate(50px,0);
+font-size:150%;
+transform:rotate(350deg);
+transition:1s;
+color:#00FF7F;}
+footer
+{
+text-align:center;
+font-size:45px;}
